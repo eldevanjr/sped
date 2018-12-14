@@ -90,4 +90,8 @@ public class SFK280CorrecaoApontamento implements SFLinha {
         this.campo07CodigoParticipante = campo06CodigoParticipante;
         return this;
     }
+
+    public String getCampo03CodigoProduto() {
+        return campo03CodigoProduto;
+    }
 }

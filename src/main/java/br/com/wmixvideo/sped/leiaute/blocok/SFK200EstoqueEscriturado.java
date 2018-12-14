@@ -56,4 +56,8 @@ public class SFK200EstoqueEscriturado implements SFLinha {
         this.campo06CodigoParticipante = campo06CodigoParticipante;
         return this;
     }
+
+    public String getCampo03CodigoProduto() {
+        return campo03CodigoProduto;
+    }
 }
