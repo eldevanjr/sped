@@ -48,6 +48,10 @@ public class SF0200IdentificacaoItem implements SFLinha, Comparable<SF0200Identi
         return "0200";
     }
 
+    public String getCampo02Codigo() {
+        return campo02Codigo;
+    }
+
     public SF0200IdentificacaoItem setCampo02Codigo(String campo02Codigo) {
         this.campo02Codigo = campo02Codigo;
         return this;
